@@ -1,0 +1,4 @@
+flask
+word2number
+num2words
+flask-cors

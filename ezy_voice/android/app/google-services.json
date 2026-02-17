@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1026434973310",
+    "project_id": "ezyvoice-82869",
+    "storage_bucket": "ezyvoice-82869.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026434973310:android:357d42d77eabaa8111a22f",
+        "android_client_info": {
+          "package_name": "com.example.ezy_voice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBunojNpyAK1U_w4vJonBHOyPK6Nu45Zxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
