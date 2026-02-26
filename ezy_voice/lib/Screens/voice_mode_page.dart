@@ -142,7 +142,7 @@ Future<void> _speak(String text) async {
 
     try {
       final res = await http.post(
-        Uri.parse('http://192.168.31.129:5000/calculate'),
+        Uri.parse('https://voicecalc-uc7u.onrender.com/calculate'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({'query': text, 'lang': _selectedLang}),
       );

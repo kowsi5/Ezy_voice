@@ -8,7 +8,7 @@ class SyncService {
   factory SyncService() => _instance;
   SyncService._internal();
 
-  final String baseUrl = "http://192.168.31.129:5000"; // your backend
+  final String baseUrl = "https://voicecalc-uc7u.onrender.com"; // your backend
   late Box<HistoryItem> box;
 
   Future<void> init() async {
