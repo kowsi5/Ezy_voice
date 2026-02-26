@@ -14,6 +14,8 @@ import 'app_drawer.dart';
 import 'history_page.dart';
 import 'plans_page.dart';
 import 'support_page.dart';
+import 'package:provider/provider.dart';
+import '../providers/usage_provider.dart'; // adjust path if different
 
 class VoiceModePage extends StatefulWidget {
   const VoiceModePage({super.key});
@@ -150,6 +152,7 @@ Future<void> _speak(String text) async {
         String resText =
             data['result_words'] ?? data['result_number'].toString();
         setState(() => _result = resText);
+        Provider.of<UsageProvider>(context, listen: false).incrementUsage();
         await _speak(resText);
 
         final historyItem = HistoryItem(
